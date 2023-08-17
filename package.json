@@ -1,0 +1,19 @@
+{
+  "name": "josn-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.17.3",
+    "lowdb": "^6.0.1",
+    "shortid": "^2.2.16"
+  },
+  "scripts": {
+    "dev2": "npx json-server --watch db.json --port 6000",
+    "dev": "npx json-server --watch db.json --port 2000 -H 192.168.0.105",
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
